@@ -1,0 +1,47 @@
+Airgead Banking App Flowchart
+
+Classes needed
+MainApp.cpp -> Where the main function is kept
+CLI.cpp -> Where the Command Line interface that the end user interacts with is kept, and where the data is displayed to the end user
+airgeadBackend.cpp -> Where the backend, all the calculations are kept
+//optional
+display.cpp -> Controls how the information from the CLI is formatted for the CLI to display.
+
+
+
+MainApp
+	main function:
+		runs an instance of the CLI class
+
+
+
+CLI.cpp
+	main menu function:
+		Prompts for input for: 
+			Initial Investment Amount
+			Monthly Deposit
+			Annual Interest
+			Number of Years
+
+		Displays the results of their inputs
+		Calls the next function to display balance without deposits
+		Calls the next function to display balance with deposits
+		//May be able to have a class or function that will style the tables so that it isn't included in the code.
+
+
+
+airgeadBackend.cpp
+	calculate Balance Without Monthly Deposits:
+		Calculates the balance based on the numbers passed from the CLI
+
+	calculate Balance with Monthly Deposits:
+		Calculates the balance based on numbers passed from the CLI
+
+
+
+//optional
+display.cpp
+	format table:
+		Formats the table based on the parameters passed. Could be included in the CLI.cpp
+	format out:
+		Formats all the output from the cli so the cli only has to worry about accepting and passing input, so the CLI isn't tied to do anything complex.

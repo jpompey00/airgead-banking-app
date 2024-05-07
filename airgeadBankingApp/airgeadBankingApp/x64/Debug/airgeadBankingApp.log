@@ -1,0 +1,3 @@
+﻿  CLI.cpp
+D:\Programming Projects\Programming-languages\Airgead Banking App\airgeadBankingApp\airgeadBankingApp\CLI.cpp(67,30): warning C4101: 'excpt': unreferenced local variable
+  airgeadBankingApp.vcxproj -> D:\Programming Projects\Programming-languages\Airgead Banking App\airgeadBankingApp\x64\Debug\airgeadBankingApp.exe
